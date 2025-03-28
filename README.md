@@ -67,9 +67,20 @@ The assistant is evaluated based on:
    ```sh
    cd ai-travel-assistant
    ```
-3. Run the assistant in your chatbot environment.
-4. Provide your travel details as prompted.
-5. Receive a well-structured itinerary with budget estimates.
+3. Create a new environment:
+   ```sh
+   python -m venv venv
+   source venv/bin/activate  # On macOS/Linux
+   venv\Scripts\activate     # On Windows
+   ```
+4. Install all the dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+5. Run the streamlit application:
+   ```sh
+   sreamlit run app.py
+   ```
 
 ## 📜 License
 This project is licensed under the MIT License.
